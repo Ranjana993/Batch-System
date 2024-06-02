@@ -6,10 +6,10 @@ import user from "../../public/User2.png"
 
 const Testimonial = () => {
   return (
-    <div className='px-6 lg:px-16'>
+    <div className='px-6 lg:px-16 py-12'>
       <div className='text-center'>
         <h4 className='uppercase lg:text-center text-left'>testimonial</h4>
-        <h1 className='text-3xl lg:text-[48px] roboto-black leading-tight capitalize'>What our Users <br /> say about Us?</h1>
+        <h1 className='text-3xl lg:text-[48px] roboto-black leading-tight lg:text-center text-left capitalize'>What our Users <br /> say about Us?</h1>
       </div>
       <div className='flex flex-col lg:flex-row justify-center items-center'>
         <div className='relative h-screen flex-grow w-full lg:w-[60%]'>

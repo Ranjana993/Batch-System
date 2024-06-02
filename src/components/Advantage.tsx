@@ -6,7 +6,7 @@ import bgGradiant1 from "../../public/bg-gradiant1.png"
 
 const Advantage = () => {
   return (
-    <div className='px-4 lg:px-16 flex flex-col lg:flex-row gap-4 border-b'>
+    <div className='px-4 lg:px-16 flex flex-col lg:flex-row gap-4'>
       <div className='pl-0 lg:pl-16 w-full lg:w-[50%] pt-24'>
         <h4 className='uppercase text-[#FF5555]'>advatnages</h4>
         <h2 className='text-4xl lg:text-[48px] capitalize font-bold'>why choose Uifry?</h2>

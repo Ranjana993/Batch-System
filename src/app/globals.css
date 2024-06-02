@@ -59,3 +59,83 @@
     @apply font-roboto font-black italic;
   }
 }
+
+/* Feature card */
+.feature-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1024px) {
+  .feature-container {
+    flex-direction: row;
+  }
+}
+
+.image-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+  height: 100vh;
+  flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .image-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 50%;
+  }
+}
+
+.content-container {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content-container {
+    padding-left: 4rem;
+    width: 50%;
+    padding-top: 6rem;
+  }
+}
+
+/* customizarion */
+.customization-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1024px) {
+  .customization-container {
+    flex-direction: row;
+  }
+}
+
+.image-container {
+  position: relative;
+  height: 100vh;
+  flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .image-container {
+    width: 50%;
+  }
+}
+
+.content-container {
+  padding-left: 0.25rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content-container {
+    padding-left: 4rem;
+    width: 50%;
+    padding-top: 9rem;
+  }
+}

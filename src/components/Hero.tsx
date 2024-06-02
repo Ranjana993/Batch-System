@@ -4,11 +4,12 @@ import bgEclipse from "../../public/bg-gradiant1.png"
 import videoIcon from "../../public/video.png"
 import heroImg from "../../public/hero_img.png"
 import eclipseImg from "../../public/eclipse1.png"
-import iphone1 from "../../public/iPhone-13-Pro-Front2.png"
+import iphone1 from "../../public/iPhone.png"
+import iPhone from "../../public/iPhonePro.png"
 
 const Hero = () => {
   return (
-    <div className='flex pl-0 lg:-pt-12 flex-col lg:flex-row justify-center px-0 lg:px-16 border-b pb-0 lg:pb-14'>
+    <div className='flex pl-0 lg:-pt-12 flex-col lg:flex-row justify-center px-0 lg:px-16 pb-0 lg:pb-14'>
       {/* left side */}
       <div className='pl-4 lg:pl-12 lg:w-[50%] w-full'>
         <div className='relative h-screen'>

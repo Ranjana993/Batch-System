@@ -6,9 +6,9 @@ import PhoneIcon from '../../public/phone.png'
 const Footer = () => {
   return (
     // <!-- Component: Five Columns Footer with Logo -->
-    <footer className='text-start mx-16 '>
+    <footer className='text-start border-t'>
       {/* <!-- Main footer --> */}
-      <div className='pt-16 pb-12 text-sm '>
+      <div className='pt-16 pb-12 text-sm mx-2 lg:mx-16 '>
         <div className='sm:container px-3 mx-auto'>
           <div className='grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12'>
             <div className='col-span-2 md:col-span-4 lg:col-span-2'>
@@ -60,8 +60,8 @@ const Footer = () => {
               <ul>
                 <li className='mb-2 leading-6'><a href='#'>Stay Up to date</a> </li>
                 <li className='mb-2 leading-6'>
-                  <input type="text" className=' px-12 py-4 outline-gray-400 border border-gray-200 bg-transparent 'placeholder='Your Email' />
-                  <button className='bg-black text-white px-12 py-4 rounded-xl'>Subscribe</button>
+                  <input type="text" className='px-3 lg:px-12 py-4 outline-gray-400 border border-gray-200 bg-transparent 'placeholder='Your Email' />
+                  <button className='bg-black text-white px-4 lg:px-12 py-4 rounded-xl'>Subscribe</button>
                 </li>
               </ul>
             </nav>
