@@ -5,7 +5,6 @@ import videoIcon from "../../public/video.png"
 import heroImg from "../../public/hero_img.png"
 import eclipseImg from "../../public/eclipse1.png"
 import iphone1 from "../../public/iPhone.png"
-import iPhone from "../../public/iPhonePro.png"
 
 const Hero = () => {
   return (

@@ -6,7 +6,7 @@ import bgGradiant1 from "../../public/bg-gradiant1.png"
 
 const Feature = () => {
   return (
-    <div className='flex flex-col lg:flex-row gap-4 py-2 border-b'>
+    <div className='flex flex-col lg:flex-row gap-4 py-2'>
       <div className='px-6 lg:px-16 relative h-screen flex-grow w-full lg:w-[50%] '>
         <Image className='absolute' src={bgGradiant1} alt="" />
         <Image className='absolute' src={feastureImg} alt="" />
