@@ -8,33 +8,33 @@ import iphone1 from "../../public/iPhone-13-Pro-Front2.png"
 
 const Hero = () => {
   return (
-    <div className='flex flex-col lg:flex-row justify-center px-12'>
+    <div className='flex pl-0 lg:-pt-12 flex-col lg:flex-row justify-center px-0 lg:px-16 border-b pb-0 lg:pb-14'>
       {/* left side */}
-      <div className=' lg:w-[50%] w-full'>
+      <div className='pl-4 lg:pl-12 lg:w-[50%] w-full'>
         <div className='relative h-screen'>
           <div>
             <Image className='absolute' src={bgEclipse} alt="" />
           </div>
-          <div className='absolute top-32'>
-            <h1 className='uppercase text-[49px] roboto-black leading-tight w-[618px]'>make the best financial decisions</h1>
-            <p className='text-[18px] mt-4'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+          <div className='absolute top-24 lg:top-32'>
+            <h1 className='uppercase text-3xl lg:text-[49px] roboto-black leading-tight w-full lg:w-[618px]'>make the best financial decisions</h1>
+            <p className='text-[18px] mt-4 p-4'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
             <div className='absolute flex gap-8 mt-8'>
               <button className='bg-black text-white rounded-md w-[180px] h-[40px]'>Get Started --{'>'} </button>
-              <div className='flex gap-2 items-center '>
+              <div className='flex  gap-2 items-center '>
                 <Image src={videoIcon} alt="" />
                 <p>watch Video</p>
               </div>
             </div>
           </div>
-          <div className='absolute top-96'>
+          <div className='absolute top-[28rem] lg:top-96'>
             <Image className='' src={heroImg} alt="" />
           </div>
         </div>
 
       </div>
       {/* right side image area */}
-      <div className="relative w-full lg:w-[50%] h-screen">
-        <div className="absolute top-24 left-28  w-fit h-full">
+      <div className="hidden lg:block  relative w-full lg:w-[50%] h-screen">
+        <div className="absolute top-24 left-12 lg:left-20  lg:w-fit h-full">
           <Image
             src={eclipseImg}
             alt="Image 1"
@@ -43,7 +43,7 @@ const Hero = () => {
             className=""
           />
         </div>
-        <div className="absolute z-50 w-fit h-full top-24 left-24">
+        <div className="absolute z-50 w-fit h-full top-24 left-0 lg:left-12">
           <Image
             src={iphone1}
             alt="Image 2"
@@ -52,7 +52,7 @@ const Hero = () => {
             className=""
           />
         </div>
-        <div className="absolute z-40  w-fit h-full top-36 left-48">
+        <div className="absolute z-40 w-fit h-full top-36 left-20 lg:left-40">
           <Image
             src={iphone1}
             alt="Image 3"
@@ -61,7 +61,7 @@ const Hero = () => {
             className=""
           />
         </div>
-        <div className="absolute z-30  w-fit h-full top-48 left-64">
+        <div className="absolute z-30  w-fit h-full top-48 left-26 lg:left-64">
           <Image
             src={iphone1}
             alt="Image 4"
