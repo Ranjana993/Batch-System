@@ -10,15 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         roboto: ['"Roboto"', 'sans-serif'],
-      },
-      fontWeight: {
-        thin: 100,
-        light: 300,
-        normal: 400,
-        medium: 500,
-        bold: 700,
-        black: 900,
-      },
+      }
     },
   },
   plugins: [],
